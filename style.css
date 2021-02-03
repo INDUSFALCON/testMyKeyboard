@@ -1,0 +1,345 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image: url(imgs/body2.jpg);
+    background-size:auto;
+}
+.border{
+    border: 2px solid red;
+}
+.main-container{
+    width:1250px;
+    display:block;
+    height: 400px;
+    margin:0 auto;
+    margin-top: 10%;
+    background-image: url(imgs/back.jpg);
+    border-radius: 15px;
+    border: 1px solid white;
+    
+  
+
+}
+button{
+    position: relative;
+    border-radius: 5px;
+    z-index: 2;
+ height: 50px;
+ width: 50px;
+ border: none;
+ outline: none;
+ color: darkgray;
+ background-color: #343635;
+ background-image: url(imgs/key.jpg);
+}
+span{
+    font-style: normal;
+    font-weight: normal;
+    font-family: monospace;
+    font-size: 15px;
+    color:darkgray;
+    
+}
+.fas{
+    color: darkgray;
+    font-size: 12px;
+}
+
+.plus{
+  position: absolute;
+  margin-left: 4px;
+  height: 104px;
+}
+.ent{
+    position: absolute;
+    height: 68px;
+    width: 55px;
+    margin-top: -18px;
+    z-index:0;
+
+}
+.ent2{
+    position: absolute;
+    margin-left: 4px;
+    height: 104px;
+    font-size: 12px;
+  }
+
+  .textbox{
+    width: 180px;
+    height: 50px;
+    background-color:#1f1f1f;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    border: 1px white solid;
+  }
+  #text{
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 25px;
+    font-family: monospace;
+
+  }
+/****************************************************************************************************/
+/* Blue Glowing*/
+  @keyframes blueglowing {
+    0% {
+      
+      box-shadow: 0 0 0px #3887e0;
+      
+    }
+    50% {
+      
+      box-shadow: 0 0 10px #3887e0;
+      color: #3887e0;
+    }
+    100% {
+      
+      box-shadow: 0 0 0px #3887e0;
+      
+    }
+  }
+  .blueglow {     /*class  name*/
+    animation: blueglowing 2000ms infinite;
+    
+  }
+  .fixblueglow{   /*class  name*/
+    box-shadow: 0 0 5px #3887e0;
+    color:#3887e0;
+  }
+/****************************************************************************************************/
+/* greenglowing*/
+  @keyframes greenglowing {
+    0% {
+      
+      box-shadow: 0 0 0px #64e344;
+      
+    }
+    50% {
+      
+      box-shadow: 0 0 10px #64e344;
+      color: #64e344;
+    }
+    100% {
+      
+      box-shadow: 0 0 0px #64e344;
+      
+    }
+  }
+  .greenglow {       /*class  name*/
+    animation: greenglowing 2000ms infinite;
+    
+  }
+  .fixgreenglow{    /*class  name*/
+    box-shadow: 0 0 5px #64e344;
+    color: #64e344;
+  }
+
+ /****************************************************************************************************/
+  /* yellowglowing*/
+  @keyframes yellowglowing {
+    0% {
+      
+      box-shadow: 0 0 0px #decc2f;
+      
+    }
+    50% {
+      
+      box-shadow: 0 0 10px #decc2f;
+      color: #decc2f;
+    }
+    100% {
+      
+      box-shadow: 0 0 0px #decc2f;
+      
+    }
+  }
+  .yellowglow {      /*class  name*/
+    animation: yellowglowing 2000ms infinite;
+    
+  }
+  .fixyellowglow{    /*class  name*/
+    box-shadow: 0 0 5px #decc2f;
+    color: #decc2f;
+  }
+ 
+ /****************************************************************************************************/
+  /* orangeglowing*/
+  @keyframes orangeglowing {
+    0% {
+      
+      box-shadow: 0 0 0px #db7940;
+      
+    }
+    50% {
+      
+      box-shadow: 0 0 10px#db7940;
+      color: #db7940;
+    }
+    100% {
+      
+      box-shadow: 0 0 0px #db7940;
+      
+    }
+  }
+  .orangeglow {      /*class  name*/
+    animation: orangeglowing 2000ms infinite;
+    
+  }
+  .fixorangeglow{    /*class  name*/
+    box-shadow: 0 0 5px #db7940;
+    color: #db7940;
+  }
+ 
+
+  /****************************************************************************************************/
+   /* redglowing*/
+   @keyframes redglowing {
+    0% {
+      
+      box-shadow: 0 0 0px #f0342e;
+      
+    }
+    50% {
+      
+      box-shadow: 0 0 10px#f0342e;
+      color: #f0342e;
+    }
+    100% {
+      
+      box-shadow: 0 0 0px #f0342e;
+      
+    }
+  }
+  .redglow {      /*class  name*/
+    animation: redglowing 2000ms infinite;
+    
+  }
+  .fixredglow{    /*class  name*/
+    box-shadow: 0 0 5px #f0342e;
+    color: #f0342e;
+  }
+ 
+
+
+
+
+
+
+
+  
+/****************************************************************************************************/
+   /* pinkglowing*/
+   @keyframes pinkglowing {
+    0% {
+      
+      box-shadow: 0 0 0px #eb4bc3;
+      
+    }
+    50% {
+      
+      box-shadow: 0 0 10px #eb4bc3;
+      color: #eb4bc3;
+    }
+    100% {
+      
+      box-shadow: 0 0 0px #eb4bc3;
+      
+    }
+  }
+  .pinkglow {      /*class  name*/
+    animation: pinkglowing 2000ms infinite;
+    
+  }
+  .fixpinkglow{    /*class  name*/
+    box-shadow: 0 0 5px #eb4bc3;
+    color: #eb4bc3;
+  }
+ 
+
+
+
+
+
+
+/****************************************************************************************************/
+  /* purpleglowing*/
+  @keyframes purpleglowing {
+    0% {
+      
+      box-shadow: 0 0 0px #a81dcf;
+      
+    }
+    50% {
+      
+      box-shadow: 0 0 10px #a81dcf;
+      color: #a81dcf;
+    }
+    100% {
+      
+      box-shadow: 0 0 0px #a81dcf;
+      
+    }
+  }
+  .purpleglow {      /*class  name*/
+    animation: purpleglowing 2000ms infinite;
+    
+  }
+  .fixpurpleglow{    /*class  name*/
+    box-shadow: 0 0 5px #a81dcf;
+    color: #a81dcf;
+  }
+  /****************************************************************************************************/
+  .blueclick{
+   animation: btnpress 0.5s infinite;
+   width: 48px;
+   height: 48px;
+   
+   }
+   @keyframes btnpress {
+
+   0% {border-top: 2px solid #3887e0;}
+   25%{border-right: 2px solid #3887e0;}
+   50%{border-bottom: 2px solid #3887e0;}
+   75%{border-left: 2px solid #3887e0;}
+  }
+/****************************************************************************************************/
+.rgbborder{
+  animation: rgbbdr 0.5s infinite;
+  
+  
+  }
+  @keyframes rgbbdr {
+
+  0% {border-top: 1px solid #3887e0;}
+  10% {border-right: 1px solid #a81dcf;}
+  20% {border-bottom: 1px solid #eb4bc3;}
+  30% {border-left: 1px solid #f0342e;}
+  40% {border-top: 1px solid #3887e0;}
+  50% {border-right: 1px solid #db7940;}
+  60% {border-bottom: 1px solid #3887e0;}
+  70%{border-left: 1px solid #64e344;}
+  80%{border-top: 1px solid #decc2f}
+  90%{border-right: 1px solid #3887e0;}
+  100% {border-bottom: 1px solid #db7940;}
+ }
+
+
+
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
