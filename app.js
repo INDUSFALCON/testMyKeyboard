@@ -276,10 +276,10 @@ document.addEventListener("keydown", function(event){
     }
     
     /*
-    if(keyy === "PrintScreen"){
+    if(code === "PrintScreen"){
         
         document.getElementById("PS").setAttribute("class","border");
-        document.getElementById("text").innerText = keyy;
+        document.getElementById("text").innerText = code;
     } */
     if(keyy === "ScrollLock"){
         
@@ -440,13 +440,13 @@ document.addEventListener("keydown", function(event){
         document.getElementById("NUM9").setAttribute("class","border");
         document.getElementById("text").innerText = code;
     }
-    /*************************UPDATE****************************** */
+    
     if(code === "NumpadAdd"){
         
         document.getElementById("NUM+").style.border = "2px solid red ";
         document.getElementById("text").innerText = keyy;
     }
-    /***************************************************************** */
+
     
     if(keyy === "k" || keyy === "K"){
         
@@ -502,11 +502,7 @@ document.addEventListener("keydown", function(event){
         document.getElementById("text").innerText = code;
     }
 
-    if(code === "Comma"){
-        
-        document.getElementById(",").setAttribute("class","border");
-        document.getElementById("text").innerText = code;
-    }
+    
 
     if(code === "Period"){
         
@@ -561,13 +557,14 @@ document.addEventListener("keydown", function(event){
         document.getElementById("RIGHT_ALT").setAttribute("class","border");
         document.getElementById("text").innerText = code;
     }
-    /******************FN not working****************** */
-    if(code === ""){
+    
+    if(keyy === "ContextMenu"){
         
-        document.getElementById("FN").setAttribute("class","border");
+        document.getElementById("MENU").setAttribute("class","border");
         document.getElementById("text").innerText = code;
+    
     }
-    /*************************************************** */
+   
      
 
     if(code === "RightClick"){
